@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: __dirname + '/build/',
     filename: '[name].bind.js',
-    publicPath: '/study-platform-webpack-demo/build/',
+    publicPath: '/build/',
     chunkFilename: "[id].chunk.js"
   },
   module: {
