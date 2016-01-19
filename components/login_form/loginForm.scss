@@ -1,0 +1,121 @@
+.m-login{
+  padding:0 35px;
+
+  .loginTip{
+    width: 273px;
+    height: 80px;
+    top: 55px;
+    left: 35px;
+    padding: 10px;
+    border: none;
+    border: 1px solid #dfdfdf;
+    background: #ffffe8;
+    .anobtn{
+      font-size: 12px;
+      color: #10ae58;
+      margin-top: 25px;
+      &:hover{text-decoration: underline; }
+    }
+    .tip{font-size: 12px; color: #999; }
+    .u-btn{margin-top: 15px; }
+  }
+
+  .itm {
+    .placeholder {
+      position: absolute;
+      top: 12px;
+      left: 10px;
+      color: #ccc;
+      cursor: text;
+      font-size: 16px;
+    }
+  }
+  .itm1{
+    margin-top:11px;
+  }
+  .itm2{
+    margin-top:15px;
+  }
+  .itm-1 {
+    z-index: 11;
+    margin-top: 15px;
+    height: 16px;
+    line-height: 14px;
+
+    .lb {
+      float: left;
+      .atlg {
+        color: #999;
+        font-size: 12px;
+      }
+    }
+
+    a{
+      font-size: 12px;
+      display: inline-block;
+      zoom: 1;
+    }
+  }
+
+  .u-submit{
+    width:300px;
+    height:50px;
+    border:none;
+    text-indent:-9999px;
+    overflow:hidden;
+    display:block;
+    cursor:pointer;
+    background:url(/res/images/login.png) no-repeat;
+    background-position:2px 0;
+    &:hover{
+      background-position:2px -71px;
+    }
+    &:active{
+      background-position:3px -144px;
+    }
+  }
+
+
+  /* prompt information */
+  .u-info{
+    position:absolute;
+    left:5px;
+    top:155px;
+    padding:8px;
+    width:195px;
+    border: 1px solid #dfdfdf;
+    background: #ffffe8;
+
+    p{
+      line-height:20px;
+      font-size:12px;
+    }
+
+    .arr{
+      position:absolute;
+      left:28px;
+      top:-9px;
+      width:20px;
+      height:10px;
+      background: url(/res/images/ui/ui_sprite.png) no-repeat 9999px 9999px;
+      background-position: 0 -540px;
+    }
+  }
+
+  /* input box */
+  .u-txt{
+    border:1px solid #dfdfdf;
+    background:#f1f1f1;
+    width:293px;
+    .txt{
+      height:20px;
+      width:281px;
+      padding:10px 5px 13px;
+      line-height:20px;
+      border:2px solid #f1f1f1;
+      border-width:2px 0 0 2px;
+      background:#fafafa;
+      font-size:16px;
+    }
+  }
+}

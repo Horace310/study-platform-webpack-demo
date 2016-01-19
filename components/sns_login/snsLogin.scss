@@ -1,0 +1,149 @@
+.m-loginbox .itm-1 .u-forget { color: #10ae58; }
+.m-loginbox .itm-1 .u-reg { position: absolute; top: 10px; right: 14px; font-size: 12px; color: #10ae58; }
+.m-loginbox .tiptlt { color: #999; font-size: 12px; }
+.m-loginbox .u-btn0 { margin: 12px 0 30px; display: block; width: 80px; text-decoration: none; background-position: 70px -300px; }
+.m-loginbox .u-btn0 span { display: block; text-align: center; padding-left: 10px; width: 60px; font-size: 14px; height: 44px; line-height: 42px; color: #fff; background-position: -40px -300px; }
+.m-loginbox .u-btn0:hover { background-position: 70px -350px; }
+.m-loginbox .u-btn0:hover span { background-position: -40px -350px; }
+.m-loginbox .u-btn0:active { background-position: 70px -400px; }
+.m-loginbox .u-btn0:active span { background-position: -40px -400px; }
+.m-loginbox .tips { color: #999; font-weight: normal; font-size: 12px; }
+.m-loginbox .tips a { color: #10ae58; font-size: 12px; }
+.m-loginbox .tips a:hover { text-decoration: underline; }
+
+.m-loginbox{
+  width:540px;
+  height:333px;
+  *height:339px;
+  text-align: left;
+  .login-img{padding: 0 35px; margin-bottom:-29px;}
+  .bd{
+    height:197px;
+    margin: 25px 0 0 10px;
+    border-left:1px solid #e7e7e7;
+    .bdtxt{
+      top:85px;
+      left:-7px;
+      width:24px;
+      height:24px;
+      line-height:24px;
+      background:#fff;
+      z-index:10;
+      color:#aaa;
+    }
+  }
+  .side{
+    width:100px;
+    margin-top:10px;
+    padding:6px 0 8px 40px;
+    .logintip{
+      padding:0;
+    }
+    .socialBox{
+      a{
+        display:block;
+        margin-top:10px;
+        width:90px;
+        height:25px;
+        background: url(/res/images/sns/snsSprite.png) no-repeat 4449px 4449px;
+      }
+      .itm0{
+        background: url("http://nos.netease.com/test-edu-image/17AFF62D66F1779376D75F7E4F225EC3.png") no-repeat;
+        &:hover{
+          background: url("http://nos.netease.com/test-edu-image/856ACB7ED2A43FF569364630548B4053.png") no-repeat;
+        }
+      }
+      .itm1{
+        background-position:-10px -13px;
+        &:hover{
+          background-position:-10px -53px;
+        }
+      }
+      .itm2{
+        background-position:-112px -13px;
+        &:hover{
+          background-position:-112px -53px;
+        }
+      }
+      .itm3{
+        background-position:-215px -13px;
+        &:hover{
+          background-position:-215px -53px;
+        }
+      }
+      .itm4{
+        background-position:-11px -277px;
+        &:hover{
+          background-position:-116px -277px;
+        }
+      }
+      .itm5{
+        background-position: -10px -316px;
+        &:hover { background-position:- 115px -316px; };
+      }
+    }
+  }
+  .logintip{
+    padding-left:35px;
+    color:#999;
+    font-size:12px;
+  }
+  .wrap{
+    width:370px;
+    z-index:100;
+    margin-top:7px;
+    padding:8px 0;
+    .form_content{
+      margin:0 auto;
+      width:300px;
+    }
+  }
+  .itm{
+    .placeholder{
+      color:#ccc;
+      cursor:text;
+      font-size:16px;
+    }
+  }
+  .itm-1{
+    z-index:11;
+    margin-top:15px;
+    height:15px;
+    line-height:15px;
+    .lb{
+      float:left;
+      .atlg{
+        color:#999;
+        font-size:12px;
+      }
+    }
+    a{
+      font-size:12px;
+      display: inline-block;
+      zoom: 1;
+    }
+  }
+
+  .reg{
+    width:100%;
+    height:18px;
+    line-height:18px;
+    a{
+      text-align:left;
+      color:#999;
+      display: block;
+      font-size:12px;
+      em{
+        color:#21a557;
+      }
+    }
+  }
+
+  .u-tt3{
+    font-weight:bold;
+    padding-left: 22px;
+    height:30px;
+    line-height:30px;
+    border-left:8px solid #545454;
+  }
+}
