@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad2cc5fe-a42a-4735-a717-70f4014d1e2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/images/components/show_image/big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/images/components/show_image/small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/images/sns/snsSprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/login_dialog/loginDialog.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/login_dialog/loginDialog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/page1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/show_image/showImage.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/show_image/showImage.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/todo/todo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/todo/todo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/todo/todo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/todoMVC/todoMVC.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/todoMVC/todoMVC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/todoMVC/todoMVC.scss" />
-      <change type="DELETED" beforePath="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\components\sns_login\snsLogin.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\js\page3.jsx" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\scss\page3.scss" afterPath="$PROJECT_DIR$/scss/page1.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/index.scss" afterPath="$PROJECT_DIR$/scss/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/login_form/loginForm.html" afterPath="$PROJECT_DIR$/components/login_form/loginForm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/login_form/loginForm.js" afterPath="$PROJECT_DIR$/components/login_form/loginForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/login_form/loginForm.scss" afterPath="$PROJECT_DIR$/components/login_form/loginForm.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/show_image/showImageMore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/common.bind.js" afterPath="$PROJECT_DIR$/build/common.bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.bind.js" afterPath="$PROJECT_DIR$/build/index.bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/page1.bind.js" afterPath="$PROJECT_DIR$/build/page1.bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/page2.bind.js" afterPath="$PROJECT_DIR$/build/page2.bind.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/page2.js" afterPath="$PROJECT_DIR$/js/page2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/page2.scss" afterPath="$PROJECT_DIR$/scss/page2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/sns_login/snsLogin.jsx" afterPath="$PROJECT_DIR$/components/sns_login/snsLogin.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/sns_login/snsLogin.scss" afterPath="$PROJECT_DIR$/components/sns_login/snsLogin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/show_image/showImage.jsx" afterPath="$PROJECT_DIR$/components/show_image/showImage.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="study-platform-webpack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,16 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="loginDialog.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/login_dialog/loginDialog.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/page1.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/js/page2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
               </folding>
@@ -83,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showImage.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="showImage.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/show_image/showImage.jsx">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30755395">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/login_form/loginForm.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,8 +77,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -113,6 +94,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="showImageMore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/show_image/showImageMore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,31 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page2.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/page2.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page1.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/page1.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,9 +172,7 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/components/login-dialog/loginDialog.js" />
         <option value="$PROJECT_DIR$/components/login-dialog/loginDialog.jsx" />
-        <option value="$PROJECT_DIR$/js/page2.js" />
         <option value="$PROJECT_DIR$/components/login_form/loginForm.js" />
-        <option value="$PROJECT_DIR$/js/page1.js" />
         <option value="$PROJECT_DIR$/components/sns_login/snsLogin.jsx" />
         <option value="$PROJECT_DIR$/components/login_form/loginForm.scss" />
         <option value="$PROJECT_DIR$/components/sns_login/snsLogin.scss" />
@@ -212,11 +181,14 @@
         <option value="$PROJECT_DIR$/scss/page2.scss" />
         <option value="$PROJECT_DIR$/scss/page1.scss" />
         <option value="$PROJECT_DIR$/js/page2.jsx" />
-        <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/components/show_image/showImage.jsx" />
         <option value="$PROJECT_DIR$/components/show_image/showImage.scss" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/page1.js" />
+        <option value="$PROJECT_DIR$/js/page2.js" />
+        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/components/show_image/showImageMore.js" />
+        <option value="$PROJECT_DIR$/components/show_image/showImage.jsx" />
       </list>
     </option>
   </component>
@@ -315,6 +287,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="show_image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study-platform-webpack-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study-platform-webpack-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login_form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study-platform-webpack-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study-platform-webpack-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -335,8 +343,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\res\images\components\show_image" />
       <recent name="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\components\show_image" />
+      <recent name="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\res\images\components\show_image" />
       <recent name="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\res\images\sns" />
       <recent name="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\components" />
       <recent name="C:\Users\lianxu-admin\Desktop\life-workspace\github\study-platform-webpack-demo\components\TodoMVC" />
@@ -608,12 +616,12 @@
       <workItem from="1453279111621" duration="28000" />
       <workItem from="1453293213459" duration="3793000" />
       <workItem from="1453297747647" duration="6262000" />
-      <workItem from="1453304361763" duration="5010000" />
+      <workItem from="1453304361763" duration="6234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34488000" />
+    <option name="totallyTimeSpent" value="35712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="1" width="1382" height="744" extended-state="0" />
@@ -911,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/login_form/loginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -996,32 +997,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/page2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/page1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/login_dialog/loginDialog.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1030,18 +1005,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/show_image/showImage.jsx">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/show_image/showImage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1054,10 +1021,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/js/page1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/page2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/show_image/showImage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/show_image/showImageMore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/login_form/loginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/3.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/show_image/showImage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30755395">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>

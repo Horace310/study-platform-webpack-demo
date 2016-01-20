@@ -5,12 +5,19 @@ var bigImage = require('../../res/images/components/show_image/big.jpg');
 const React = require('react');
 const ReactDOM = require('react-dom');
 require('./showImage.scss')
+
+
+
 var ShowImage = React.createClass({
     getInitialState: () => {
         return{src: smallImage}
     },
     doclick: function() {
-        this.setState({src: bigImage})
+        require.ensure(['./showImageMore.js'],function(){   //showImageMore.js 是 CommonJs模块
+            this.setState({src: bigImage})
+            var changeColor = require('./showImageMore.js');
+            changeColor();
+        }.bind(this))
     },
     render: function() {
         return (
