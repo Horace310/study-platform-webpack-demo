@@ -1,31 +1,22 @@
 require('./snsLogin.scss');
 
-var formHtml = require('../login_form/loginForm.html');
-
 const React = require('react');
 const ReactDOM = require('react-dom');
 var $ = require('jquery');
 
-var Hello = React.createClass({
-    getInitialState: () => {
-        return{name:"cqh"}
-    },
-    doclick: function() {
-        this.setState({name: "lulu"})
-    },
+var SnsLogin = React.createClass({
     render: function() {
         return (
-            <h1 onClick={this.doclick}>
-                Hello, world! {this.state.name}
-                <div dangerouslySetInnerHTML={{__html:formHtml }}></div>
-            </h1>
+                <div className="socialBox j-social-box">
+                    <a className="j-slink itm0 f-hide"  target="_self"></a>
+                    <a className="j-slink itm1 f-hide"  target="_self"></a>
+                    <a className="j-slink itm2 f-hide"  target="_self"></a>
+                    <a className="j-slink itm3 f-hide"  target="_self"></a>
+                    <a className="j-slink itm4 f-hide"  target="_self"></a>
+                    <a className="j-slink itm5 f-hide" target="_self"></a>
+                </div>
         );
     }
 });
 
-ReactDOM.render(
-    <Hello></Hello>,
-    $('#j-login-form')[0]
-);
-
-require('../login_form/loginForm.js');
+module.exports = SnsLogin;

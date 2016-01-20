@@ -1,0 +1,21 @@
+.dialog-outter{
+  h2{
+    text-align: center;
+    width: 65%;
+    margin-bottom: 8px;
+  }
+  .login-dialog{
+    display: table-cell;
+    border: solid red 1px;
+    overflow: hidden;
+    .left,.right,.middle{
+      float: left;
+    }
+    .middle{
+      border: solid red 1px;
+      height: 220px;
+    }
+  }
+
+}
+
