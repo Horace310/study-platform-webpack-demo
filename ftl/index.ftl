@@ -5,8 +5,15 @@
     <title></title>
 </head>
 <body>
-    <h1>首页欢迎你</h1>
-    <h4 id="j-login-button">登录</h4>
-    <div class="login" id="j-login-form"></div>
+    <div id="j-login-form"></div>
+    <div id="todoapp"></div>
+    <div id="j-show-image"></div>
+    <script src="/build/common.bind.js"></script>
+
+    <script src="/build/page2.bind.js"></script>
+
+    <script src="/build/page1.bind.js"></script>
+
+    <script src="/build/index.bind.js"></script>
 </body>
 </html>

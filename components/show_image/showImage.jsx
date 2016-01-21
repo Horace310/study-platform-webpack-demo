@@ -13,11 +13,32 @@ var ShowImage = React.createClass({
         return{src: smallImage}
     },
     doclick: function() {
-        require.ensure(['./showImageMore.js'],function(){   //showImageMore.js 是 CommonJs模块
+        require.ensure(['./showImageMore.js'],function(require){   //showImageMore.js 是 CommonJs模块
             this.setState({src: bigImage})
             var changeColor = require('./showImageMore.js');
             changeColor();
         }.bind(this))
+
+        //require()commonJS 也不会先执行，对commonJS 打包方式不同 this 为null ,也同ensure,会懒加载
+       /* require(['./showImageMore.js'],function(changeColor){   //showImageMore.js 是 CommonJs模块
+            this.setState({src: bigImage})
+            var changeColor = require('./showImageMore.js');
+            changeColor();
+        }.bind(this));*/
+
+        //require.ensure() 无论什么模块都不执行
+        require.ensure(['./showImageMore_AMD.js'],function(require){   //showImageMore_AMD.js 是 AMD模块,
+            this.setState({src: bigImage})
+            var changeColor = require('./showImageMore_AMD.js');
+            changeColor();
+        }.bind(this))
+
+        //require()AMD 先执行 this为null,
+     /*   require(['./showImageMore_AMD.js'],function(changeColor){   //showImageMore_AMD.js 是 AMD模块
+            this.setState({src: bigImage})
+            changeColor = require('./showImageMore_AMD.js');
+            changeColor();
+        }.bind(this))*/
     },
     render: function() {
         return (
