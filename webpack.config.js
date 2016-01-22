@@ -13,9 +13,9 @@ module.exports = {
   },
   output: {
     path: __dirname + '/build/',
-    filename: '[name].bind.js',
+    filename: 'bind/[name].bind.js',
     publicPath: '/build/',
-    chunkFilename: "[chunkhash].chunk.js"
+    chunkFilename: "chunk/[chunkhash].chunk.js"
     // chunkFilename: "[id].chunk.js"
    // chunkFilename: "[hash].chunk.js"
   },
@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
 
     new HtmlWebpackPlugin({
-        filename: 'index.html',
+        filename: 'ftl/index.html',
         template: './ftl/index.ftl',// Load a custom template
         inject:true,    //允许插件修改哪些内容，包括head与body
         hash:true,    //为静态资源生成hash值
@@ -58,7 +58,7 @@ module.exports = {
         chunks: [ 'index']
     }),
     new HtmlWebpackPlugin({
-      filename: 'page1.html',
+      filename: 'ftl/page1.html',
       template: './ftl/page1.ftl',
       inject:true,
       hash:true,
@@ -68,7 +68,7 @@ module.exports = {
       chunks: [ 'page1']
     }),
     new HtmlWebpackPlugin({
-      filename: 'page2.html',
+      filename: 'ftl/page2.html',
       template: './ftl/page2.ftl',
       inject:true,
       hash:true,
@@ -79,14 +79,14 @@ module.exports = {
     }),
 
 
-    new CommonsChunkPlugin('common.bind.js'),
+    new CommonsChunkPlugin('common/common.bind.js'),
     //new CommonsChunkPlugin('autoFlash.bind.js',['webpack/hot/dev-server', 'webpack-dev-server/client?http://localhost:8080']),
     //new CommonsChunkPlugin("pageCommons.js", ["page1", "page2"]),
 
     new webpack.HotModuleReplacementPlugin(),
 
     new OpenBrowserPlugin({
-      url: 'http://localhost:8080/build/'
+      url: 'http://localhost:8080/build/ftl/'
     })
 
     // new ExtractTextPlugin('styles.css')

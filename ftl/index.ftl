@@ -8,7 +8,7 @@
     <div id="j-login-form"></div>
     <div id="todoapp"></div>
     <div id="j-show-image"></div>
-    <script src="/build/common.bind.js"></script>
+    <script src="/build/common/common.bind.js"></script>
 
 </body>
 </html>
