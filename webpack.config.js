@@ -15,8 +15,8 @@ module.exports = {
     path: __dirname + '/build/',
     filename: '[name].bind.js',
     publicPath: '/build/',
-   // chunkFilename: "[id].chunk.js"
     chunkFilename: "[chunkhash].chunk.js"
+    // chunkFilename: "[id].chunk.js"
    // chunkFilename: "[hash].chunk.js"
   },
   module: {
@@ -46,25 +46,50 @@ module.exports = {
     ]
   },
   plugins: [
+
+    new HtmlWebpackPlugin({
+        filename: 'index.html',
+        template: './ftl/index.ftl',// Load a custom template
+        inject:true,    //允许插件修改哪些内容，包括head与body
+        hash:true,    //为静态资源生成hash值
+        minify:{    //压缩HTML文件
+            removeComments:true    //移除HTML中的注释
+        },
+        chunks: [ 'index']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'page1.html',
+      template: './ftl/page1.ftl',// Load a custom template
+      inject:true,    //允许插件修改哪些内容，包括head与body
+      hash:true,    //为静态资源生成hash值
+      minify:{    //压缩HTML文件
+        removeComments:true    //移除HTML中的注释
+      },
+      chunks: [ 'page1']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'page2.html',
+      template: './ftl/page2.ftl',// Load a custom template
+      inject:true,    //允许插件修改哪些内容，包括head与body
+      hash:true,    //为静态资源生成hash值
+      minify:{    //压缩HTML文件
+        removeComments:true   //移除HTML中的注释
+      },
+      chunks: [ 'page2']
+    }),
+
+
     new CommonsChunkPlugin('common.bind.js'),
     //new CommonsChunkPlugin('autoFlash.bind.js',['webpack/hot/dev-server', 'webpack-dev-server/client?http://localhost:8080']),
     //new CommonsChunkPlugin("pageCommons.js", ["page1", "page2"]),
 
     new webpack.HotModuleReplacementPlugin(),
-    new HtmlWebpackPlugin({
-      template: './ftl/index.ftl'// Load a custom template
-    }),
+
     new OpenBrowserPlugin({
       url: 'http://localhost:8080/build/'
-    }),
+    })
 
-
-  /*  new uglifyJsPlugin({  // --optimize-minimize
-      compress: {
-        warnings: false
-      }
-    })*/
-      // new ExtractTextPlugin('styles.css')
+    // new ExtractTextPlugin('styles.css')
   ],
   externals: {
     //'jquery': 'jQuery'  //require("jquery") => 取全局的jQuery变量

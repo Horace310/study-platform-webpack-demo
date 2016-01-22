@@ -9,6 +9,5 @@
     <div id="todoapp"></div>
     <div id="j-show-image"></div>
     <script src="/build/common.bind.js"></script>
-
 </body>
 </html>
