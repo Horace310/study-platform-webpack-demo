@@ -29,7 +29,8 @@
     "style-loader": "~0.12.3",
     "url-loader": "~0.5.6",
     "webpack": "~1.11.0",
-    "webpack-dev-server": "^1.10.1"
+    "webpack-dev-server": "^1.10.1",
+    "html-loader": "^0.4.0"
   },
   "author": "",
   "license": "ISC",
@@ -38,7 +39,5 @@
   },
   "homepage": "https://github.com/mejustme/study-platform-webpack-demo",
   "devDependencies": {
-    "html-loader": "^0.4.0",
-    "react-router": "^2.0.0-rc5"
   }
 }
