@@ -39,7 +39,7 @@ module.exports = {
         loader: 'html-loader'
       },{
         test: /\.css$/,
-        loader: 'style-loader!css-loader'  //默认全局global,不转换，加了css-loader?modules会变成默认局部 //通过 :local() :global() 决定 require() 返回一个map
+        loader: 'style-loader!css-loader'  //默认全局global,不转换，加了css-loader?modules会变成默认局部 //通过 :local(a) :global() 决定 require() 返回一个map
         // loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
 
       }
